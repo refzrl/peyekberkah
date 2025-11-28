@@ -1,0 +1,132 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Arial',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 700px;
+    float: left;
+    font-family: gill sans;
+    color:#540863;
+
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 65px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #e2d8d8;
+    z-index: 1;
+    border-bottom: 2px solid #540863;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul ui {
+    float: left;
+}
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Arial';
+    color: #540863;
+    animation: forwards;
+}
+
+h2 {
+    font-family: 'Arial';
+    font-weight: 900;
+    font-size: 63px;
+    font-style: oblique;
+    margin-bottom: 25px;
+    color: #540863;
+    width: 100%;
+    list-style: 60px;
+}
+
+a.tbl-biru {
+    background: #92487A;
+    border-radius: 25px;
+    margin-top: 25px;
+    padding: 15px 20px 15px 20px;
+    color:#FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #E49BA6;
+    text-decoration: double;
+}
+
+a.tbl-pink {
+    background: #E49BA6;
+        border-radius: 30px;
+        margin-top: 30px;
+        margin-block: 20;
+        padding: 15px 20px 15px 20px;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #540863;
+    text-decoration: none;
+}
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+.kolom .ntah {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Arial';
+    font-style: initial;
+    color: #4c095a;
+    padding: 30px;
+    margin: 10px;
+}
